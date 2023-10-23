@@ -1,0 +1,12 @@
+.*.swp
+.#*
+
+sanity_info
+
+/.repo
+
+/build*/bitbake-cookerdaemon.log
+/build*/cache
+/build*/tmp
+/build*/conf/templateconf.cfg
+/build*/*.env

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="dunfell"/>
+
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <project remote="yocto" name="poky" path="sources"/>
+  <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+
+  <remote fetch="git://code.qt.io/yocto" name="qt5" revision="5.9" />
+  <project remote="qt5" name="meta-qt5" path="sources/meta-qt5"/>
+
+  <remote fetch="https://github.com/jumpnow" name="jumpnow"/>
+  <project remote="jumpnow" name="meta-rpi" path="sources/meta-rpi"/>
+
+</manifest>
+
